@@ -1,0 +1,110 @@
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+
+    text-decoration: none;
+    color: #30233d;
+}
+
+.suptitle {
+    display: block;
+    margin-bottom: 19px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12.6px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #f61067;
+}
+
+
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.pink {
+    color: #f61067;
+}
+
+.purple {
+    color: #30233d;
+}
+
+.cyan {
+    color: #00f0b5;
+}
+
+.orange {
+    color: #f67110;
+}
+
+.col-4 {
+    width: 33.3333%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .col-4 {
+        width: 50%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .col-4 {
+        width: 50%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .container {
+        padding: 0 20px;
+        overflow: hidden;
+    }
+
+    a {
+        width: max-content;
+    }
+
+}

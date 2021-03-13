@@ -1,0 +1,55 @@
+.create {
+    padding-top: 108px;
+    padding-bottom: 180px;
+    text-align: center;
+
+    .container {
+        display: block;
+    }
+
+    &__description {
+        @include font(27px, 500);
+        max-width: 754px;
+        margin: 0 auto;
+        line-height: 40px;
+        text-align: center;
+        color: $color-purple;
+    }
+
+    &__row {
+        display: flex;
+        padding-top: 83px;
+    }
+
+
+
+    .cyan,
+    .purple,
+    .pink {
+        text-shadow: 0px 5px 15px;
+        font-size: 99px;
+    }
+
+    &__type {
+        @include font(13px, 800, 6px, uppercase);
+        line-height: 36px;
+        color: $color-purple;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .create{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .create {
+        padding-bottom: 100px;
+
+        &__item {
+            padding-left: 15px;
+        }
+    }
+}

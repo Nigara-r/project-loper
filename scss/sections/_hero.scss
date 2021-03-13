@@ -1,0 +1,44 @@
+.hero {
+    height: 360px;
+    background-image: url(../images/png/photo.png);
+
+    &__title {
+        @include font(54px, 500);
+        line-height: 80px;
+        margin-top: 108px;
+        color: $color-pink;
+    }
+
+    &__subtitle {
+        @include font(18px, 800, uppercase);
+        margin-bottom: 19px;
+        font-family: sans-serif;
+        line-height: 37px;
+        color: $color-light-yellow;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .hero {
+        max-width: 100%;
+        
+        &__title,
+        &__subtitle {
+            margin-left: 50px;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+    .hero {
+
+        max-width: 100%;
+    }
+
+
+}

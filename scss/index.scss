@@ -1,0 +1,19 @@
+//base
+@import "./base";
+@import "./mixins";
+@import "./variables";
+
+
+//components 
+@import "./components/header";
+
+
+//sections
+@import "./sections/hero";
+@import "./sections/create";
+@import "./sections/services";
+@import "./sections/make";
+@import "./sections/slider-page";
+
+
+

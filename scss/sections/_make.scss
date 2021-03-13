@@ -1,0 +1,90 @@
+.make {
+    padding-bottom: 100px;
+
+    .container {
+        display: block;
+    }
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 128px;
+    }
+
+    &__content {
+        padding-top: 70px;
+        padding-left: 12%;
+        padding-right: 22%;
+    }
+
+    &__number {
+        @include font(18px, 800, 4px, uppercase);
+        line-height: 37px;
+        color: $color-pink;
+    }
+
+    &__title {
+        @include font(27px, 500, );
+        line-height: 40px;
+        margin-top: 5px;
+        margin-bottom: 31px;
+        color: $color-purple;
+    }
+
+    &__description {
+        font-size: 18px;
+        line-height: 29px;
+        color: $color-gray;
+
+        &:hover {
+            color: $color-purple;
+        }
+
+    }
+
+    img {
+        &:hover {
+            box-shadow: 0px 9px 25px;
+        }
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .make {
+        &__content {
+            padding-top: 10px;
+        }
+
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .make {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+        &__content {
+            padding: 0 20px;
+        }
+
+        &__title {
+            @include font(20px, 500);
+            margin-bottom: 10px;
+        }
+     &__description {
+            font-size: 15px;
+            line-height: 25px;
+            color: $color-gray;
+            padding-bottom: 10px;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
