@@ -130,7 +130,7 @@ a {
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   p.create__description,
   p.services__description {
     font-size: 20px;
@@ -281,7 +281,7 @@ a {
   }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
   .header {
     display: block;
   }
@@ -352,7 +352,19 @@ a {
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
+  .footer .nav {
+    display: none;
+  }
+  .footer .footer__bottom .social__item {
+    padding: 5px;
+  }
+  .footer .footer__bottom .social__item__map {
+    padding-left: 75px;
+  }
+}
+
+@media screen and (max-width: 375px) {
   .footer .nav {
     display: none;
   }
@@ -409,7 +421,7 @@ a {
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   .hero__title {
     font-size: 40px;
   }
@@ -482,7 +494,16 @@ a {
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
+  .create__number.purple,
+  .create__number.pink,
+  .create__number.cyan {
+    text-shadow: 0px 5px 15px;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 375px) {
   .create__number.purple,
   .create__number.pink,
   .create__number.cyan {
@@ -582,7 +603,7 @@ a {
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   .services__row {
     padding: 25px;
   }
@@ -697,7 +718,7 @@ a {
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   .make__row {
     display: block;
   }
@@ -705,7 +726,28 @@ a {
     width: 300px;
   }
   .make img {
-    display: none;
+    padding-top: 80px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .make__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .make .col-4,
+  .make .col-6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom-style: groove;
+  }
+  .make img {
+    padding-top: 80px;
+  }
+  .make__item {
+    width: 200px;
   }
 }
 
@@ -893,6 +935,24 @@ body {
 }
 
 @media screen and (max-width: 576px) {
+  .slider-pages {
+    height: 50vh;
+  }
+  .slider-page--skew {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .slider-pages {
+    height: 50vh;
+  }
+  .slider-page--skew {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .slider-pages {
     height: 50vh;
   }
