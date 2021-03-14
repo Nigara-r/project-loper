@@ -130,7 +130,7 @@ a {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   p.create__description,
   p.services__description {
     font-size: 20px;
@@ -281,7 +281,7 @@ a {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 576px) {
   .header {
     display: block;
   }
@@ -352,7 +352,7 @@ a {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   .footer .nav {
     display: none;
   }
@@ -409,7 +409,7 @@ a {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   .hero__title {
     font-size: 40px;
   }
@@ -482,7 +482,7 @@ a {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   .create__number.purple,
   .create__number.pink,
   .create__number.cyan {
@@ -582,7 +582,7 @@ a {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   .services__row {
     padding: 25px;
   }
@@ -697,7 +697,7 @@ a {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   .make__row {
     display: block;
   }
