@@ -936,28 +936,19 @@ body {
 
 @media screen and (max-width: 576px) {
   .slider-pages {
-    height: 50vh;
-  }
-  .slider-page--skew {
-    height: 50vh;
+    display: none;
   }
 }
 
 @media screen and (max-width: 375px) {
   .slider-pages {
-    height: 50vh;
-  }
-  .slider-page--skew {
-    height: 50vh;
+    display: none;
   }
 }
 
 @media screen and (max-width: 320px) {
   .slider-pages {
-    height: 50vh;
-  }
-  .slider-page--skew {
-    height: 50vh;
+    display: none;
   }
 }
 /*# sourceMappingURL=index.css.map */
