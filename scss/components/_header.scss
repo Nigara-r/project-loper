@@ -4,22 +4,6 @@
 
 
     .nav {
-        margin-left: 195px;
-        display: flex;
-        align-items: center;
-
-        &__list {
-            display: flex;
-            list-style: none;
-        }
-
-        &__link {
-            @include font(14.4px, 700, 2px, none);
-            margin-right: 53px;
-            font-family: sans-serif;
-            color: $color-purple;
-
-        }
 
         .contacts {
             display: flex;
@@ -88,18 +72,16 @@
 }
 
 
-
+//mobile//
 
 @media screen and (max-width: 1024px) {
     .header {
         .nav {
+            @include display-flex(center, center,  );
+            @include position(0, 0);
             flex-direction: column;
             display: flex;
-            align-items: center;
-            justify-content: center;
             position: fixed;
-            top: 0;
-            left: 0;
             z-index: 2;
             height: 100vh;
             width: 100vw;
@@ -112,12 +94,11 @@
             }
 
             &__list {
+                @include display-flex(center, center);
                 font-size: 60px;
                 display: flex;
                 flex-direction: column;
                 width: 100%;
-                align-items: center;
-                justify-content: center;
             }
 
             .contacts {

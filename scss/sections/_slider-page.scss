@@ -197,10 +197,16 @@ body {
     }
 }
 
+
+
+
+//mobile//
 @media screen and (max-width: 1024px) {
     .slider-pages {
-        width: 100%;
+        width: 100vw;
+        height: 100vh;
     }
+
 }
 
 @media screen and (max-width: 576px) {
