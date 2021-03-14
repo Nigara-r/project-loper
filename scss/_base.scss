@@ -124,7 +124,7 @@ a {
 
 }
 
-@media screen and (min-width: 320px){
+@media screen and (max-width: 320px){
 p.create__description,
 p.services__description
     {
@@ -132,3 +132,4 @@ p.services__description
     font-weight: 700;
 }
 }
+

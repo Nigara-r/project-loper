@@ -60,7 +60,7 @@
     }
 }
 
-@media screen and (min-width: 320px){
+@media screen and (max-width: 320px){
     .footer{
         .nav {
             display: none;
@@ -77,3 +77,21 @@
     }
     }
 }
+@media screen and (max-width: 375px) {
+    .footer {
+        .nav {
+            display: none;
+        }
+
+        .footer__bottom {
+            .social__item {
+                padding: 5px;
+
+                &__map {
+                    padding-left: 75px;
+                }
+            }
+        }
+    }
+}
+
