@@ -35,7 +35,28 @@ a {
     color: #f61067;
 }
 
+  .nav {
+      margin-left: 195px;
+      display: flex;
+      align-items: center;
 
+      &__list {
+          display: flex;
+          list-style: none;
+      }
+
+      &__link {
+         
+          font-size:15px;
+          font-weight: 700;
+           letter-spacing:2px;
+           text-transform: none;
+          margin-right: 53px;
+          font-family: sans-serif;
+          color: #30233d;
+
+      }
+  }
 
 .container {
     max-width: 1140px;
@@ -77,29 +98,23 @@ a {
 
 @media screen and (max-width: 1024px) {
     .container {
-        padding: 0 20px;
+        padding: 0 5px;
     }
-
-    .col-4 {
+    .col-4,
+    .col-6
+     {
         width: 50%;
     }
 
-    .col-6 {
-        width: 50%;
-    }
 }
 
 @media screen and (max-width: 576px) {
-    .col-4 {
-        width: 50%;
-    }
-
+    .col-4,
     .col-6 {
         width: 50%;
     }
-
     .container {
-        padding: 0 20px;
+        padding: 0 5px;
         overflow: hidden;
     }
 
@@ -107,4 +122,13 @@ a {
         width: max-content;
     }
 
+}
+
+@media screen and (max-width: 320px){
+p.create__description,
+p.services__description
+    {
+    font-size: 20px;
+    font-weight: 700;
+}
 }

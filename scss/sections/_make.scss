@@ -50,6 +50,9 @@
     }
 }
 
+
+
+//mobile//
 @media screen and (max-width: 1024px) {
     .make {
         &__content {
@@ -85,6 +88,19 @@
 
         img {
             width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 320px) {
+    .make{
+        &__row {
+            display: block;
+        }
+        &__item {
+            width: 300px;
+        }
+        img {
+            display: none;
         }
     }
 }

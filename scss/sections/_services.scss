@@ -1,11 +1,13 @@
 .services {
+
+    padding-bottom: 180px;
+
     &__item {
         display: block;
         margin: 20px;
         text-align: left;
     }
 
-    padding-bottom: 180px;
 
     &__title {
         @include font(45px, 500);
@@ -43,7 +45,6 @@
 }
 
 .item {
-
     text-align: left;
     padding: 28px 35px;
 
@@ -64,6 +65,8 @@
 }
 
 
+
+//mobile//
 @media screen and (max-width: 1024px) {
     .services {
         padding: 0 25px;
@@ -77,6 +80,19 @@
 
         &__row {
             padding: 0 25px;
+        }
+    }
+}
+@media screen and (max-width: 320px){
+    .services {
+        &__row {
+                padding: 25px;
+        }
+        &__item {
+            display: block;
+        }
+        .item__description {
+            font-size:15px;
         }
     }
 }
